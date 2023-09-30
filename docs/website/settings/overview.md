@@ -15,8 +15,8 @@ import BrowserOnly from "@docusaurus/BrowserOnly";
 import {Redirect} from "@docusaurus/router";
 
 <BrowserOnly>{() => {
-  if (location.hash === "#high-quality-pen") {
-    return <Redirect to="high-quality-pen" />;
+  if (location.hash === "#high-quality
+    return <Redirect to="high-quality
   }
   return <></>;
 }}</BrowserOnly>
